@@ -33,19 +33,19 @@ const Offerings = () => {
         <div className="container offeringsbutton-container">
           <Link to="/mentor-connect">
             
-            <button type="button" class="btn btn-primary rounded text-dark" className="mentorconnect">
+            <button type="button" className="mentorconnect">
               Mentor Connect
             </button>
           </Link>
           <Link to="/investor-connect">
             
-            <button type="button" class="btn btn-primary rounded text-dark" className="investorconnect">
+            <button type="button" className="investorconnect">
               Investor Connect
             </button>
           </Link>
           <Link to="/grant-connect">
             
-            <button type="button" class="btn btn-primary rounded text-dark" className="grantsconnect">
+            <button type="button" className="grantsconnect">
               Grants Connect
             </button>
           </Link>

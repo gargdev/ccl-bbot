@@ -29,11 +29,11 @@ const Home = () => {
   return (
     <>
       <div className="home-container">
-        <div className="home-left-container">
+        <div className="container home-left-container">
           <h1>Best Place in The World To Build Your Startup</h1>
           <div className="home-right-content1">
-          <img src={Building1} alt="" onClick={openVideoModal} />
-        </div>
+            <img src={Building1} alt="" onClick={openVideoModal} />
+          </div>
           <p>
             Co Create Labs is a game-changer in the startup ecosystem. It
             enables access to a global platform that brings together the best
@@ -41,9 +41,6 @@ const Home = () => {
             organizations in an integrated ecosystem.
           </p>
           <div className="left-btn-conatainer">
-            {/* <button className="bg-blue-500 text-white rounded-full p-3">
-              Start Growing
-            </button> */}
             <button
               type="button"
               class="btn btn-primary text-dark rounded-pill w-36 p-3"
@@ -51,14 +48,6 @@ const Home = () => {
               Start Growing
             </button>
 
-            {/* <button
-              className="lfbtn text-white rounded-full p-3"
-              onClick={openVideoModal}
-            >
-              {" "}
-              
-              Who Are We
-            </button> */}
             <button
               type="button"
               class="btn btn-primary text-dark rounded-pill w-36 p-3"
@@ -67,7 +56,6 @@ const Home = () => {
               Who Are We
             </button>
 
-            {/* <PlayCircleFilled sx={{ width: 40, height: 30 }} /> */}
             <Modal
               isOpen={videoModalOpen}
               onRequestClose={closeVideoModal}
@@ -88,7 +76,7 @@ const Home = () => {
             </Modal>
           </div>
         </div>
-        <div className="home-right-content cursor-pointer">
+        <div className="container home-right-content cursor-pointer">
           <img src={Building1} alt="" onClick={openVideoModal} />
         </div>
       </div>

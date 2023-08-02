@@ -6,7 +6,9 @@
   background-size: cover;
   padding: 8rem 0rem 6.5rem 0rem;
  }
-
+.home-content{
+  display: flex;
+}
  .home-left-container{
   display: flex;
   flex-direction: column;

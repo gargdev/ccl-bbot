@@ -5,6 +5,7 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 3% 7%3%7%;
+  margin-bottom: 10%;
 }
 
 .offerings-top-conatainer {
@@ -76,6 +77,7 @@
 .offeringsbutton-container button {
   padding: 1em;
   border-radius: 10px;
+  border: 2px solid #0096f6;
 }
 
 .mentorconnect,
@@ -89,7 +91,6 @@ font-size: 18px;
 line-height: 28px;
 text-transform: capitalize;
 color: #637381;
-border: 2px solid #0096f6;
 }
 
 .mentorconnect:hover,
@@ -355,4 +356,28 @@ display: flex;
     justify-content: center;
     flex-direction: column-reverse;
   }
+
+  .mentorconnect,
+.investorconnect,
+.grantsconnect {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 280% */
+  text-transform: capitalize;
+}
+
+.offeringsbutton-container {
+      gap: 1rem;
+}
+.offeringsbutton-container button {
+  padding: 0.3em;
+  border-radius: 10px;
+  border: 1px solid #0096f6;
+}
+
+
 }
