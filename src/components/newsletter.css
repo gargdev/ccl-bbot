@@ -3,21 +3,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1.5em;
-    /* width: 1000px; */
-    /* opacity: ; */
-    /* border-radius: 14px; */
     mix-blend-mode: normal;
 }
 
 .sub-newsletter-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    gap: 1rem;
+    padding: 2em;
 }
-.heading-container h3{
+
+.sub-newsletter-container h2{
 font-family: 'DM Sans';
 font-style: normal;
 font-weight: 700;
@@ -27,124 +24,204 @@ text-align: center;
 letter-spacing: -0.4px;
 color: #FFFFFF;
 }
-.heading-container p{
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-color: #FFFFFF;
-mix-blend-mode: normal;
+
+.sub-newsletter-container p{
+  color: var(--colors-white, #FFF);
+  text-align: center;
+  
+  /* Text / Paragraph */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
 }
+
 .newslettercontainer{
     display: flex;
     flex-direction: row;
     gap: 4rem;
     
 }
-.newslettercontainer{
+
+
+.newsletter-form {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.form-group {
+  margin: 10px;
+  display: flex;
+}
+
+
+
+input {
+  /* border-radius: 100px;
+  border: 2px solid var(--colors-white, #FFF); */
+  opacity: 0.2;
+  color: var(--colors-white, #000);
+  /* Buttons / Big */
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 130% */
+  /* border-radius: 100px; */
+}
+
+.name-field{
+  width: 308.571px;
+  height: 64.097px;
+  flex-shrink: 0;
+}
+
+.email-field{
+  width: 537.143px;
+  height: 64.097px;
+  flex-shrink: 0;
+}
+
+.newsletter-form button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
   border-radius: 100px;
+  font-size: 16px;
+  cursor: pointer;
 }
-.name-container{
-    border: 2px solid #FFFFFF;
-    border-radius: 100px;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    outline: none;
-    opacity: 0.4;
+
+button:hover {
+  background-color: green;
 }
-.your-email{
-    border: 2px solid #FFFFFF;
-    border-radius: 100px;
-    box-sizing: border-box;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
-    display: flex;
-    align-items: center;
-    opacity: 0.4;
-    outline: none;
-    width: 25rem;
-    
+
+.sub-newsletter-container h6{
+  color: var(--colors-white, #FFF);
+  text-align: center;
+  
+  /* Text / Paragraph */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
 }
-.sign-up-container{
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
-    display: flex;
-    width: 15%;
-    align-items: center;
-    text-align: center;
-    background: #00A99D;
-    border-radius: 100px;
-}
-.bottom-container{
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-}
+
 
 
 /* For screens smaller than 600px (e.g. smartphones) */
 @media (max-width: 600px) {
-    .newsletter-parent-container {
-      padding: 0.5em;
+  .sub-newsletter-container h2{
+    color: var(--colors-white, #FFF);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+    letter-spacing: -0.4px;
     }
-    .sub-newsletter-container {
-      gap: 0.5rem;
+
+    .sub-newsletter-container p{
+      color: var(--colors-white, #FFF);
+      text-align: center;
+      font-family: DM Sans;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px; /* 142.857% */
     }
-    .newslettercontainer {
+
+
+    .newsletter-form {
+      display: flex;
       flex-direction: column;
-      gap: 2rem;
+          gap: 1rem;
     }
-    .your-email {
-      width: 100%;
+    
+    .form-group {
+      flex: 0 0 50%; 
+      /* margin: 10px; */
+      display: flex;
+      /* flex-direction: column; */
     }
-  }
-  
-  /* For screens between 600px and 1200px (e.g. tablets) */
-  @media (min-width: 600px) and (max-width: 1200px) {
-    .heading-container h3 {
-      font-size: 36px;
+    
+    
+    
+    input {
+
+      width: 87.59px;
+      height: 25.501px;      
+      border-radius: 100px;
+      border: 2px solid var(--colors-white, #FFF);
+      opacity: 0.2;
+      color: var(--colors-white, #000);
+    
+      color: var(--colors-white, #FFF);
+      text-align: center;
+      font-family: DM Sans;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 26px; /* 260% */
     }
-    .name-container, .your-email, .sign-up-container {
+
+
+    .name-field{
+      width: 130px;
+      height: 26px;
+      flex-shrink: 0;
+      border-radius: 10px;
+      border: 2px solid var(--colors-white, #FFF);
+      opacity: 0.2;
+      color: var(--colors-white, #000);
+      text-align: center;
+      font-family: DM Sans;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 26px; /* 260% */
+    }
+    
+    .email-field{
+      width: 130px;
+      height: 26px;
+      flex-shrink: 0;
+      border-radius: 10px;
+      border: 2px solid var(--colors-white, #FFF);
+      opacity: 0.2;
+      color: var(--colors-white, #000);
+      text-align: center;
+      font-family: DM Sans;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 26px; /* 260% */
+    }
+    
+    .newsletter-form button {
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: #007bff;
+      color: #fff;
+      border: 1px solid #007bff;
+      border-radius: 100px;
       font-size: 16px;
+      cursor: pointer;
     }
-  }
-  
-  /* For screens larger than 1200px (e.g. desktops) */
-  @media (min-width: 1200px) {
-    .heading-container h3 {
-      font-size: 48px;
-    }
-    .sub-newsletter-container {
-      gap: 2rem;
+
+    .sub-newsletter-container h6{
+      color: var(--colors-white, #FFF);
       text-align: center;
-      align-items: center;
-    }
-    .newslettercontainer {
-      gap: 4rem;
-    }
-    .name-container, .your-email, .sign-up-container {
-      font-size: 20px;
-      text-align: center;
-      align-items: center;
+      font-family: DM Sans;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px; /* 216.667% */
     }
   }
   

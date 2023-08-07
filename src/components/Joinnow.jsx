@@ -12,7 +12,7 @@ const Joinnow = () => {
         <div className="joinnow-background">
           <p></p>
         </div>
-        <div className="joinnow-rectangular-card">
+        <div className="container joinnow-rectangular-card">
           <div className="joinnow-rectangle-content">
             <div className="joinnow-rectangle-content-left">
               <div>
@@ -39,13 +39,13 @@ const Joinnow = () => {
             </div>
 
             <div className="joinnow-rectangle-content-right">
-              <div className="green-ellipse">
+              <div className="container green-ellipse">
                 <img src={Greenellipse} alt="" />
               </div>
-              <div className="blue-ellipse">
+              <div className="container blue-ellipse">
                 <img src={Blueellipse} alt="" />
               </div>
-              <div className="iphone-img">
+              <div className="container iphone-img">
                 <img src={Iphoneimg} alt="" />
               </div>
               {/* <img src={iphoneimg} alt="" class="img-fluid" className="mr-60"/> */}

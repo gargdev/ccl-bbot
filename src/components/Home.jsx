@@ -29,7 +29,7 @@ const Home = () => {
   return (
     <>
       <div className="home-container">
-        <div className="container home-left-container">
+        <div className="home-left-container">
           <h1>Best Place in The World To Build Your Startup</h1>
           <div className="home-right-content1">
             <img src={Building1} alt="" onClick={openVideoModal} />

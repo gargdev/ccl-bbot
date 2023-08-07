@@ -33,7 +33,7 @@ const App = () => {
           <Route exact path="/grant-connect" element={<Connect />} />
           <Route exact path="/services" element={<Services />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );

@@ -97,7 +97,7 @@ const Navbars = () => {
             show={showOffcanvas}
             onHide={() => setShowOffcanvas(false)}
             placement="end"
-            style={{ width: "450px" }}
+            style={{ width: "250px" }}
           >
             <Offcanvas.Header closeButton>
               {/* <Offcanvas.Title>Menu</Offcanvas.Title> */}
@@ -112,7 +112,7 @@ const Navbars = () => {
                 </li>
                 <li className="nav-dropdown">
                   <Dropdown
-                  style={{width: "400px"}}
+                  style={{width: "290px"}}
                   >
                     <Dropdown.Toggle variant="light" id="offerings-dropdown">
                       Offerings

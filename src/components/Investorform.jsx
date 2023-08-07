@@ -39,9 +39,9 @@ const InvestorForm = () => {
 
   return (
     <div className={`two-step-form ${formClosed ? "closed" : ""}`}>
-      <div className="form-image">
+      {/* <div className="form-image">
         <img src={group54} alt="Form" />
-      </div>
+      </div> */}
       <div className="form-content">
         <div p-5>
           <p className="text-center font-poppins font-bold font-medium text-2xl leading-12 text-center tracking-wider capitalize text-black">
@@ -67,11 +67,11 @@ const InvestorForm = () => {
                   onChange={handleInputChange}
                   placeholder="Startup Name"
                   required
-                  className="w-full rounded-full mt-5"
+                  className="w-full rounded-full mt-1"
                 />
               </div>
 
-              <div className="right-form-field mt-5">
+              <div className="right-form-field mt-1">
                 <input
                   type="email"
                   name="email"
@@ -89,12 +89,12 @@ const InvestorForm = () => {
                   onChange={handleInputChange}
                   placeholder="Contact Number"
                   required
-                  className="w-full rounded-full mt-5"
+                  className="w-full rounded-full mt-1"
                 />
               </div>
             </div>
 
-            <button className="investorformbtn mt-10 w-32 hover:text-white hover:bg-blue-800 outline-none" type="submit">
+            <button className="investorformbtn mt-1  w-50 hover:text-white hover:bg-blue-800 outline-none" type="submit">
               Submit
             </button>
           </form>
