@@ -38,7 +38,7 @@ line-height: 47px;
 color: #242565;
 }
 
-.event-primary-title{
+.event-primary-title p{
     display: flex;
     flex-wrap: wrap;
 font-family: 'Poppins';
@@ -152,7 +152,7 @@ width: 80%;
         /* margin-left: -10px; */
     }
 
-    .event-primary-title{
+    .event-primary-title p{
         font-size: 12px;
         overflow: hidden;
         line-height: 19px;
@@ -160,6 +160,7 @@ width: 80%;
         padding: 1%3%1%3%;
         align-items: center;
         text-align: center;
+        margin-left: 10%;
     }
 
     .event-card-container{

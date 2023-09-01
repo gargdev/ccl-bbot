@@ -13,7 +13,7 @@ const Upcomingevents = () => {
           <div className="event-primary-heading">
             <h3>Upcoming Events</h3>
           </div>
-          <div className="event-primary-title">
+          <div className="container event-primary-title">
             <p>
               Co Create Events are a great opportunity to meet investors,
               mentors and community and connect with the right kind of people

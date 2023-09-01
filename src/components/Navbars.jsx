@@ -42,11 +42,11 @@ const Navbars = () => {
   return (
     <>
       <nav className={navbarScrolled ? "scrolled" : ""}>
-        <div className="nav-logo">
-          <img src={Logo} alt="" />
+        <div className="container nav-logo">
+        <Link to="/"><img src={Logo} alt="" /></Link>
         </div>
         <div>
-          <ul className="nav-links">
+          <ul className="container nav-links">
             <a href="/"><li>
               Home
             </li></a>

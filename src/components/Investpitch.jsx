@@ -7,8 +7,8 @@ const Investpitch = () => {
     <>
         <div className="pitch-parent-container">
         <Fade bottom distance='20%' duration={1000} delay={100}>
-            <div className="pitch-content-container">
-            <h1 class="font-poppins font-bold text-3xl sm:text-4xl lg:text-5xl leading-11 sm:leading-12 lg:leading-14 text-center capitalize text-white">Are you ready to pitch your startup?</h1>
+            <div className="container pitch-content-container">
+            <h1>Are you ready to pitch your startup?</h1>
             <br />
             <h2>Get Started Now</h2>
             <br />

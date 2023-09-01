@@ -50,7 +50,7 @@ const Newsletter = () => {
                 className="email-field"
               />
             </div>
-            <button type="submit">Submit</button>
+            <button type="submit" className="submit-btn">Submit</button>
           </form>
           <h6>By subscribing, you agree to the Terms of Service</h6>
         </div>

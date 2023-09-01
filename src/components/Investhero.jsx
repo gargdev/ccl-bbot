@@ -30,6 +30,11 @@ const Investhero = () => {
                 <h1>
                   Creating the next generation of changemakers
                 </h1>
+                <div className="container invest-right-content1">
+            <Fade right distance="20%" duration={1000} delay={100}>
+              <img src={investbanner} alt="" class="img-fluid"/>
+            </Fade>
+          </div>
                 <p>
                   Get Access to Pitch in front of global investors to launch/
                   scale up your start-up initiatives with investment caps

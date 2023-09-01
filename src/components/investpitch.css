@@ -15,58 +15,35 @@
 }
 
 .pitch-content-container h1{
-    font-family: 'Poppins';
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 45px;
-    /* or 94% */
-    
-    text-align: center;
+    line-height: 45px; /* 93.75% */
     text-transform: capitalize;
-    
-    color: #FFFFFF;
-    
-}
-
-.pitch-content-container p{
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 45px;
-    /* or 94% */
-    
-    text-align: center;
-    
-    color: #FFFFFF;
 }
 
 .pitch-content-container h2{
-    font-family: 'DM Sans';
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 48px;
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
     line-height: 45px;
-    /* or 94% */
-    
-    text-align: center;
-    
-    color: #FFFFFF;
 }
 
 .pitch-content-container p{
-    font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-/* identical to box height, or 125% */
-
-text-align: center;
-
-color: #FFFFFF;
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 125% */
 }
+
 
 .pitchbtn{
     background: #4A90E2;
@@ -85,4 +62,40 @@ color: #FFFFFF;
     border: none;
     width: 200px;
     padding: 1em;
+}
+
+@media (max-width: 768px) {
+            .pitch-content-container h1{
+                color: #FFF;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 40px; /* 125% */
+                text-transform: capitalize;
+            }
+
+            .pitch-content-container h2{
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 40px;
+            }
+
+            .pitch-content-container p{
+                color: #FFF;
+                text-align: center;
+                font-family: DM Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px; /* 156.25% */
+            }
+}
+
+@media (max-width: 480px) {
+
 }

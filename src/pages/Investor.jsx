@@ -3,6 +3,7 @@ import Investhero from "../components/Investhero";
 import Investapply from "../components/Investapply";
 import Investpitch from "../components/Investpitch";
 import FeedbackForm from "../components/FeedbackForm";
+import Testimonial from "../components/Investtestimonial";
 import Fade from "react-reveal/Fade";
 import Investorform from "../components/Investorform";
 export const Investor = () => {
@@ -11,7 +12,8 @@ export const Investor = () => {
       {<Investhero />}
       {<Investapply />}
       {<Investpitch />}
-      {<FeedbackForm/>}
+      {<Testimonial />}
+      {/* {<FeedbackForm/>} */}
       {/* {<Investorform/>} */}
     </>
   );

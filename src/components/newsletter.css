@@ -95,7 +95,7 @@ input {
   cursor: pointer;
 }
 
-button:hover {
+.submit-btn:hover {
   background-color: green;
 }
 
@@ -114,7 +114,7 @@ button:hover {
 
 
 /* For screens smaller than 600px (e.g. smartphones) */
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .sub-newsletter-container h2{
     color: var(--colors-white, #FFF);
     text-align: center;
